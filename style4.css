@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5%;
+}
+.opation{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    color: aliceblue;
+}
+a{
+    color: black;  
+    text-decoration: none;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    
+}
+.h1{
+    text-align: center;
+    font-weight: 900;
+    color: #41d399;
+}
+p{
+    margin-top: 3%;
+    text-align: center;
+    line-height: 120%;
+    font-weight: 600;
+}
+.addes{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 5%;
+        
+}
+.doctor{
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.customer{
+    box-shadow: 1px 1px 1px 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.student{
+    box-shadow: 1px 1px 1px 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.s1{
+    color: #41d399;
+    margin-bottom: 1%;
+    margin-left: 30%;
+}
+.s2{
+    color: #41d399;
+    margin-bottom: 1%;
+    margin-left: 20%;
+}
+.s3{
+    color: #41d399;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
